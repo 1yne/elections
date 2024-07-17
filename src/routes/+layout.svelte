@@ -3,8 +3,10 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-<Navbar />
-<slot></slot>
+<div class="bg-[url('/heroSectionBG.jpg')] h-screen bg-cover">
+	<Navbar />
+	<slot></slot>
+</div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
