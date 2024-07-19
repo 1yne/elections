@@ -2,7 +2,7 @@
 	<h1 class="font-readex text-8xl font-black tracking-tighter text-white">Lead The Way</h1>
 	<a href="/vote">
 		<button class="button font-readex button--anthe relative bg-none px-16 py-4 text-white">
-      <span class="block mix-blend-exclusion">Vote</span>
+      <span class="block mix-blend-screen">Vote</span>
     </button>
 	</a>
 </div>
