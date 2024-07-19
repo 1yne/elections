@@ -10,3 +10,8 @@
     font-family: "Readex Pro";
   }
 }
+
+:root {
+  --red: #D60202;
+  --purple: #29235c
+}

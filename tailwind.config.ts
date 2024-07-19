@@ -6,8 +6,8 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-        red: "#D60202",
-        purple: "#29235c",
+        red: "var(--red)",
+        purple: "var(--purple)",
 				primary: {
           50: '#FFF5F2',
           100: '#FFF1EE',

@@ -20,7 +20,7 @@
 	.button--anthe::before {
 		border-radius: 8px;
 		content: '';
-		background: linear-gradient(to right, #d60202, #29235c);
+		background: linear-gradient(to right, var(--red), var(--purple));
 		-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 		clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
 		transition:
@@ -29,7 +29,7 @@
 	}
 
 	.button--anthe:hover::before {
-		background: linear-gradient(to right, #d60202, #29235c);
+		background: linear-gradient(to right, var(--red), var(--purple));
 		-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 		clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 	}
